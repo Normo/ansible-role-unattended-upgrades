@@ -55,7 +55,7 @@ jobs:
         uses: "./.github/workflows/prepare-action"
 
       - name: "Run Molecule tests."
-        run: "pipenv run molecule test"
+        run: "pipenv run molecule --debug test"
         env:
           MOLECULE_IMAGE: "${{ matrix.image }}"
 
