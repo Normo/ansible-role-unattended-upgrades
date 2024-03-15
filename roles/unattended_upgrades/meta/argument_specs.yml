@@ -1,0 +1,20 @@
+---
+argument_specs:
+  main:
+    short_description: "The main entry point for the hifis.unattended_upgrades role."
+    version_added: "4.0.0"
+    options:
+      unattended_cache_valid_time:
+        default: 3600
+        type: "int"
+        description: "Update the apt cache if it's older than the given time in seconds; passed to the apt module during package installation."
+      unattended_origins_patterns:
+        default:
+          - ['origin=Debian,codename=${distro_codename},label=Debian-Security', 'origin=Debian,codename=${distro_codename}-security,label=Debian-Security']
+          - ['origin=Debian,codename=${distro_codename},label=Debian-Security']
+          - ['origin=Ubuntu,archive=${distro_codename}-security,label=Ubuntu']
+        type: list
+        description: "Array of origins patterns to determine whether the packages can be automatically installed"
+
+https://github.com/kpfleming/ansible-systemd-networkd/blob/e9960a08dc08bb9cc5dfae26ea2751c1ea45419d/src/roles/bond/meta/argument_specs.yml#L118
+https://github.com/ansible/ansible/issues/77964

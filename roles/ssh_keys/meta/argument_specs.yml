@@ -1,0 +1,29 @@
+---
+argument_specs:
+  main:
+    short_description: "The main entry point for the ssh_keys role."
+    description: |
+      This role distributes authorized SSH public keys to users.
+    version_added: 4.3.0
+    options:
+      ssh_user_list:
+        type: "list"
+        elements: "dict"
+        required: true
+        options:
+          name:
+            description: "Name of the user."
+            type: "str"
+            required: true
+          create_user_account:
+            description: "Flag, whether a user account should be created."
+            type: "bool"
+            default: false
+          authorized_keys:
+            description: "List of authorized public keys."
+            type: "list"
+            elements: "str"
+      ssh_authorized_keys_exclusive:
+        description: Flag, whether to remove all other non-specified keys from the authorized_keys file.
+        type: "bool"
+        default: true
