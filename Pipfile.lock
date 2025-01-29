@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5ec136f3364229011419ddb4a15ba5f7f6881b1c7696d4a91e936120672037a8"
+            "sha256": "70780d5d4228e48c062cc06ae55fb1310f2b949b16a0195de8416b6f34c4b759"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -303,36 +303,36 @@
     "develop": {
         "ansible-compat": {
             "hashes": [
-                "sha256:0415bcd82f7d84e5b344c03439154c1f16576809dc3a523b81178354c86ae5a1",
-                "sha256:0ad873e0dae8b2de79bc33ced813d6c92c716c4d7b82f9a4693e1fd57f43776e"
+                "sha256:76147025c82c92433feb8317d3fa513026f557dc1b64abd0b2565ffa09a57725",
+                "sha256:b4e4609bb9b91588758be4d26ff25ff46d7ce83e6b8f2cc58cf77d736ec1f1ab"
             ],
-            "markers": "python_version >= '3.9'",
-            "version": "==24.10.0"
+            "markers": "python_version >= '3.10'",
+            "version": "==25.1.1"
         },
         "ansible-core": {
             "hashes": [
-                "sha256:14cac1f92bbdae881cb0616eddeb17925e8cb507e486087975e724533d9de74f",
-                "sha256:4a312e416e09c7271188d6b8e2b1062fc6834fefd6a1814d0e02fb8aadb3e1ba"
+                "sha256:725b047d35942304eb322eb934b98cc5442ac3f49d33827d97171c238c4b69b9",
+                "sha256:c337512d740d9d9606846e1b1620eaaeadccb6dc2e864ce92cb485a8fc1f57f4"
             ],
             "markers": "python_version >= '3.11'",
-            "version": "==2.18.1"
+            "version": "==2.18.2"
         },
         "ansible-lint": {
             "hashes": [
-                "sha256:9553b2aee124999b2005140bf27619793910454fcf2381e25ceb5b21f7384eed",
-                "sha256:e4d657578a8354832a84a1d5a2b9225a78b9c5fefa8880506b7fa0347d6b5f7e"
+                "sha256:52ded593ba69831bf8f2882fea9118f96657f115e75904cac9afe1ea931bf0ab",
+                "sha256:a417c04a94640302f73ad5b96ba3f09a77b24861fd5441d04245549cf3dc2ac9"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==25.1.0"
+            "version": "==25.1.1"
         },
         "attrs": {
             "hashes": [
-                "sha256:8f5c07333d543103541ba7be0e2ce16eeee8130cb0b3f9238ab904ce1e85baff",
-                "sha256:ac96cd038792094f438ad1f6ff80837353805ac950cd2aa0e0625ef19850c308"
+                "sha256:1c97078a80c814273a76b2a298a932eb681c87415c11dee0a6921de7f1b02c3e",
+                "sha256:c75a69e28a550a7e93789579c22aa26b0f5b83b75dc4e08fe092980051e1090a"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==24.3.0"
+            "version": "==25.1.0"
         },
         "binaryornot": {
             "hashes": [
@@ -808,11 +808,11 @@
         },
         "referencing": {
             "hashes": [
-                "sha256:363d9c65f080d0d70bc41c721dce3c7f3e77fc09f269cd5c8813da18069a6794",
-                "sha256:ca2e6492769e3602957e9b831b94211599d2aade9477f5d44110d2530cf9aade"
+                "sha256:df2e89862cd09deabbdba16944cc3f10feb6b3e6f18e902f7cc25609a34775aa",
+                "sha256:e8699adbbf8b5c7de96d8ffa0eb5c158b3beafce084968e2ea8bb08c6794dcd0"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==0.36.1"
+            "version": "==0.36.2"
         },
         "resolvelib": {
             "hashes": [
